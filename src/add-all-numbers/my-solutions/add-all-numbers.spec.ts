@@ -1,5 +1,5 @@
 import { AddAllNumbers } from './add-all-numbers'
-describe('', () => {
+describe('Add all number from an array', () => {
   it('should return 0 when the list is empty', () => {
     const given: number[] = []
     const actual = AddAllNumbers(given)
